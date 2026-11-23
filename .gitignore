@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+
+# Environment Variables & Secrets
+.env
+backend/.env
+*.env.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# IDE and Editor Files
+.vscode/
+.idea/
+
+# Testing and Coverage
+coverage/
+.nyc_output/
+
+# Docker Local Data
+mysql_data/
